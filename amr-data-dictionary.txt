@@ -1,10 +1,16 @@
 AMR data
 
-100,000 rows of 12 variables
+100,000 rows of 6 variables
 
-These data represent the sort of data that might be obtained from the Second Generation Surveillance System.
+These data represent the sort of data that might be obtained from the Second Generation Surveillance System. There is one record for each specimen taken. 
 
-* id Integer - A unique identifier for each record within the data.
-* variable_2 String - A random string variable.
+id | Integer | A unique identifier for each record within the data
+firstname | Character | The first name of the patient from whom the sample was taken
+surname | Character | The surname of the patient from whom the sample was taken
+specdate | Date | The date that the specimen was taken
+dob | Date | The patient's date of birth
+nhsnumber | Character | The patient's NHS number
+organism | Character | The species name of the organism identified in the sample
+rAMOXICLAV | Integer | Whether the sample is resistant to Co-Amoxiclav, 1 is resistant, 0 is not resistant
 
 ...
