@@ -3,3 +3,5 @@ AMR data
 100,000 rows of 12 variables
 
 These data represent the sort of data that might be obtained from the Second Generation Surveillance System.
+
+* id Integer - A unique identifier for each record within the data.
