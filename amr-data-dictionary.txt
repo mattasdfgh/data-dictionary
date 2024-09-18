@@ -2,6 +2,8 @@ AMR data
 
 100,000 rows of 6 variables
 
+Edits by AF 
+
 These data represent the sort of data that might be obtained from the Second Generation Surveillance System. There is one record for each specimen taken. 
 
 id | Integer | A unique identifier for each record within the data
